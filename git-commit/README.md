@@ -33,7 +33,11 @@ gitignore:
 
 
 clone va pull
-
+rm -rf test2
+git clone https://github.com/eromoe/test2
+git add test2/
+git commit -am 'add files from test2 repo to test repo'
+git push
 su dung: git clone ten duong dan vao (de tai ve)
 muon tai thay doi su dung pull: git pull
 
